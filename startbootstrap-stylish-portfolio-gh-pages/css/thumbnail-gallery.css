@@ -4,14 +4,33 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
  */
 
-body {
-    padding-top: 70px; /* Required padding for .navbar-fixed-top. Change if height of navigation changes. */
-}
-
 .thumb {
     margin-bottom: 30px;
 }
 
 footer {
     margin: 50px 0;
+}
+
+.caption {
+    position: relative;
+    
+    cursor: pointer;
+}
+
+span { 
+    font-family: "Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
+    text-align: center;
+    
+    
+    display: none;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: rgba(0, 0, 0, .7);
+    height: 100%;
+    width: 100%;
+    border: solid;
+    border-radius: 6px;
+    color: #fff;
 }
